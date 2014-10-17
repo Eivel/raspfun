@@ -8,7 +8,7 @@ GPIO.setwarnings(False)
 GPIO.setup(17, GPIO.OUT)
 GPIO.setup(12, GPIO.IN)
 
-is_high = True
+is_high = False
 
 while True:
     if(GPIO.input(12) == False):
