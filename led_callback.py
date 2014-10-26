@@ -1,3 +1,4 @@
+__author__ = 'Wojciech'
 import time
 import os
 import RPi.GPIO as GPIO
